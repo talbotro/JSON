@@ -12,6 +12,6 @@ class Main {
         obj.put("is_vip",new Boolean(true));
         obj.put("Number_Of_Frisbees",5700);
 
-        System.out.print(obj);
+        System.out.print(obj.get("name"));
     }
 }
